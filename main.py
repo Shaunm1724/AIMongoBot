@@ -7,16 +7,16 @@ from pymongo.server_api import ServerApi
 import google.generativeai as genai
 
 # Telegram Credentials
-Token: final = '7632070220:AAF1mft92tO1rlD4FCVWiFpVsmxWuBObZCk'
+Token: final = 'TELEGRAM_TOKEN'
 BOT_USER_NAME: final = '@AiMongoBot'
 
 # Gemini Credentials
-genai.configure(api_key="AIzaSyACJoyvGdD4XSe_DX4smQWzUQ9seMpc898")
+genai.configure(api_key="GEMINI_API_KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # MONGO_URI = os.getenv("mongodb+srv://shaunmenezes1724:JGzEm8yOurwoiHHQ@cluster0.1o7tg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "mongodb://localhost:27017")
 
-uri = 'mongodb+srv://shaunmenezes1724:JGzEm8yOurwoiHHQ@cluster0.1o7tg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+uri = 'MONGO_URI'
 mongo_client = MongoClient(uri, server_api=ServerApi('1'))
 db = mongo_client['telegram_bot']  # Database name
 users_collection = db['users']  # Collection for user data
