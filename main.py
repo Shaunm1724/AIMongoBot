@@ -14,7 +14,6 @@ BOT_USER_NAME: final = '@AiMongoBot'
 genai.configure(api_key="GEMINI_API_KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-# MONGO_URI = os.getenv("mongodb+srv://shaunmenezes1724:JGzEm8yOurwoiHHQ@cluster0.1o7tg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", "mongodb://localhost:27017")
 
 uri = 'MONGO_URI'
 mongo_client = MongoClient(uri, server_api=ServerApi('1'))
