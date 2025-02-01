@@ -34,15 +34,14 @@ A Telegram bot that integrates **Gemini AI** for text and image analysis, with *
 ## **📸 Screenshots**  
 
 ### **1️⃣ Register**  
-![Register 1](Screenshots/1.jpeg) 
-![Register 2](Screenshots/2.jpeg) 
+<img src="Screenshots/1.jpeg" width="200"> 
+<img src="Screenshots/2.jpeg" width="200"> 
 
 ### **2️⃣ Chat With AI**
-![Chat Example](Screenshots/3.jpeg) 
+<img src="Screenshots/3.jpeg" width="200"> 
 
 ### **3️⃣ Mongo Atlas**
-![Mongo Atlas](Screenshots/4.png) 
-
+<img src="Screenshots/4.png" width="400">  
 
 
 💡 **Contributions & Issues**  
