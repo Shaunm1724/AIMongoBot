@@ -44,7 +44,7 @@ A Telegram bot that integrates **Gemini AI** for text and image analysis, with *
 <img src="Screenshots/4.png" width="400">  
 
 
-💡 **Contributions & Issues**  
+## 💡 **Contributions & Issues**  
 Feel free to submit PRs or report issues!  
 
 ---
